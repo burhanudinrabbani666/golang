@@ -26,4 +26,4 @@ func main(){
 }
 ```
 
-Next: []()
+Next: [Tipe data array](./13-tipe-data-array.md)
