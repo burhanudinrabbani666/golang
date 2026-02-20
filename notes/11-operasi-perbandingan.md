@@ -25,4 +25,4 @@ func main(){
 }
 ```
 
-Next: []()
+Next: [Operasi boolean](./12-operasi-boolean.md)
