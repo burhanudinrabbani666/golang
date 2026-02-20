@@ -66,3 +66,5 @@ func main(){
 	fmt.Println(firstName, lastName) // Burhanudin Rabbani
 }
 ```
+
+Next: [Constant](./07-constant.md)
