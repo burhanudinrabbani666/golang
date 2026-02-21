@@ -69,3 +69,5 @@ func main() {
 }
 
 ```
+
+Next: [For](./18-for.md)
