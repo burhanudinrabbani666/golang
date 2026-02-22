@@ -33,4 +33,4 @@ func main() {
 	}
 }
 ```
-Next: []()
+Next: [Function](./20-function.md)
