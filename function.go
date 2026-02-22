@@ -1,13 +1,27 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
-func sayHelloTo() (string, int) {
-	return "Burhanudin", 23
+func sayHelloWIthFilter(name string, filter func(string) string) {
+	filteredName := filter(name)
+
+	fmt.Println("Hello", filteredName)
+}
+
+func spamFilter(name string) string {
+	if strings.ToLower(name) == "anjing" {
+		return "***"
+	} else {
+		return name
+	}
+
 }
 
 func main() {
-	firstName, _ := sayHelloTo()
+	sayHelloWIthFilter("Bani", spamFilter)
 
-	fmt.Println(firstName)
+	sayHelloWIthFilter("AnjinG", spamFilter)
 }
